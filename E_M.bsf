@@ -1,0 +1,148 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 304 776)
+	(text "E_M" (rect 5 0 28 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 0 696 17 708)(font "Arial" ))
+	(port
+		(pt 112 0)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 104 25 118 48)(font "Arial" (font_size 8))(vertical))
+		(line (pt 112 0)(pt 112 17))
+	)
+	(port
+		(pt 0 24)
+		(input)
+		(text "RegWriteE" (rect 0 0 59 14)(font "Arial" (font_size 8)))
+		(text "RegWriteE" (rect 21 19 80 33)(font "Arial" (font_size 8)))
+		(line (pt 0 24)(pt 16 24))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "WBsE[1..0]" (rect 0 0 62 14)(font "Arial" (font_size 8)))
+		(text "WBsE[1..0]" (rect 21 35 83 49)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 16 40)(line_width 3))
+	)
+	(port
+		(pt 0 56)
+		(input)
+		(text "MemWriteE" (rect 0 0 62 14)(font "Arial" (font_size 8)))
+		(text "MemWriteE" (rect 21 51 83 65)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 16 56))
+	)
+	(port
+		(pt 0 104)
+		(input)
+		(text "MemReadE" (rect 0 0 62 14)(font "Arial" (font_size 8)))
+		(text "MemReadE" (rect 21 99 83 113)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 16 104))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "ALUoutE[15..0]" (rect 0 0 84 14)(font "Arial" (font_size 8)))
+		(text "ALUoutE[15..0]" (rect 21 315 105 329)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 16 320)(line_width 3))
+	)
+	(port
+		(pt 0 408)
+		(input)
+		(text "RD1E[15..0]" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "RD1E[15..0]" (rect 21 403 87 417)(font "Arial" (font_size 8)))
+		(line (pt 0 408)(pt 16 408)(line_width 3))
+	)
+	(port
+		(pt 0 536)
+		(input)
+		(text "WriteRegE[2..0]" (rect 0 0 87 14)(font "Arial" (font_size 8)))
+		(text "WriteRegE[2..0]" (rect 21 531 108 545)(font "Arial" (font_size 8)))
+		(line (pt 0 536)(pt 16 536)(line_width 3))
+	)
+	(port
+		(pt 0 680)
+		(input)
+		(text "ZimmE[15..0]" (rect 0 0 71 14)(font "Arial" (font_size 8)))
+		(text "ZimmE[15..0]" (rect 21 675 92 689)(font "Arial" (font_size 8)))
+		(line (pt 0 680)(pt 16 680)(line_width 3))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "RegWriteM" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "RegWriteM" (rect 158 27 219 41)(font "Arial" (font_size 8)))
+		(line (pt 240 32)(pt 224 32))
+	)
+	(port
+		(pt 240 48)
+		(output)
+		(text "WBsM[1..0]" (rect 0 0 64 14)(font "Arial" (font_size 8)))
+		(text "WBsM[1..0]" (rect 155 43 219 57)(font "Arial" (font_size 8)))
+		(line (pt 240 48)(pt 224 48)(line_width 3))
+	)
+	(port
+		(pt 240 64)
+		(output)
+		(text "MemWriteM" (rect 0 0 64 14)(font "Arial" (font_size 8)))
+		(text "MemWriteM" (rect 155 59 219 73)(font "Arial" (font_size 8)))
+		(line (pt 240 64)(pt 224 64))
+	)
+	(port
+		(pt 240 104)
+		(output)
+		(text "MemReadD" (rect 0 0 63 14)(font "Arial" (font_size 8)))
+		(text "MemReadD" (rect 156 99 219 113)(font "Arial" (font_size 8)))
+		(line (pt 240 104)(pt 224 104))
+	)
+	(port
+		(pt 240 320)
+		(output)
+		(text "ALUoutM[15..0]" (rect 0 0 87 14)(font "Arial" (font_size 8)))
+		(text "ALUoutM[15..0]" (rect 132 315 219 329)(font "Arial" (font_size 8)))
+		(line (pt 240 320)(pt 224 320)(line_width 3))
+	)
+	(port
+		(pt 240 408)
+		(output)
+		(text "WriteDataM[15..0]" (rect 0 0 100 14)(font "Arial" (font_size 8)))
+		(text "WriteDataM[15..0]" (rect 119 403 219 417)(font "Arial" (font_size 8)))
+		(line (pt 240 408)(pt 224 408)(line_width 3))
+	)
+	(port
+		(pt 240 536)
+		(output)
+		(text "WriteRegM[2..0]" (rect 0 0 89 14)(font "Arial" (font_size 8)))
+		(text "WriteRegM[2..0]" (rect 130 531 219 545)(font "Arial" (font_size 8)))
+		(line (pt 240 536)(pt 224 536)(line_width 3))
+	)
+	(port
+		(pt 240 680)
+		(output)
+		(text "ZimmM[15..0]" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "ZimmM[15..0]" (rect 145 675 219 689)(font "Arial" (font_size 8)))
+		(line (pt 240 680)(pt 224 680)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 696))
+	)
+)
